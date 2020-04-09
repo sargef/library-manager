@@ -6,7 +6,7 @@
 
 <h2><b><p align="center">Library Manager</p></b></h2>
 
-<h1><p align="center">  The library Manager will require the following before running the app;  </p></h1>
+<h3><p align="center">  The library Manager will require the following before running the app on your local server;  </p></h3>
 <br />
 
 <h4><b>1. Download Files</b></h4>
