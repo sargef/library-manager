@@ -8,7 +8,7 @@ const books = require('./routes/books');
 
 const app = express();
 
-// var port = process.env.PORT || 8080;
+var port = process.env.PORT || 8080;
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -50,11 +50,6 @@ app.use( (err, req, res, next) => {
 
 module.exports = app;
 
-// app.listen(port, function() {
-//   console.log('Your app is listening on port: ' + port);
-// });
-
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}.`);
+app.listen(port, function() {
+  console.log('Your app is listening on port: ' + port);
 });
