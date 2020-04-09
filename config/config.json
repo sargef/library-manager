@@ -8,12 +8,10 @@
     "dialect": "sqlite",
     "storage": "text.db"
   },
-  "production": {
-    "username": "b09ae979cb7273",
-    "password": "47a1728a",
-    "database": "database_production",
-    "host": "us-cdbr-iron-east-01.cleardb.net/heroku_8a4abeb702460aa",
-    "dialect": "mysql",
-    "operatorsAliases": false
-  }
 }
+module.exports = {
+  HOST: "us-cdbr-iron-east-01.cleardb.net",
+  USER: "b09ae979cb7273",
+  PASSWORD: "47a1728a",
+  DB: "heroku_8a4abeb702460aa"
+};
