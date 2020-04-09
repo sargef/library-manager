@@ -9,11 +9,7 @@
     "storage": "text.db"
   },
     "production": {
-    "username": "b09ae979cb7273",
-    "password": "47a1728a",
-    "database": "heroku_8a4abeb702460aa",
-    "host": "us-cdbr-iron-east-01.cleardb.net",
-    "dialect": "mysql",
-    "operatorsAliases": false
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
   }
 }
