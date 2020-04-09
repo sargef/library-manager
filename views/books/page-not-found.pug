@@ -1,0 +1,15 @@
+extends ../layout
+
+block content
+    a(href='/') Back
+
+#error
+    h3 Error:
+    h1 #{error.message}
+
+    h2 Status:
+    p #{error.status}
+
+    h2 Stacktrace:
+    p #{error.stack}
+

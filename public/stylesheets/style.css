@@ -1,0 +1,167 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px 50px 200px;
+  font: 18px "Garamond", serif;
+  font-weight: 100;
+  background: url(../images/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat scroll center center;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+table {
+  width: 900px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+
+a {
+  color: rgba(0,0,0,1);
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.4s;
+  padding-left: 10px;
+}
+
+  a:hover {
+    color: black;
+  }
+
+a.button, input[type=submit] {
+  color: white;
+  background: #55608f;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 10px 14px 12px;
+  font-size: 14px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+form a.button, input[type=submit] {
+  margin-left: 140px;
+  transition: 0.4s;
+}
+
+input[type=submit] {
+  border: 0;
+}
+
+  a.button:hover, input[type=submit]:hover {
+    background-color: #55608f;
+  }
+
+  button, input[type=submit] {
+    color: white;
+    background: #55608f;
+    padding: 10px 14px 12px;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 41px;
+    font-size: 17px;
+  }
+
+h1, p, h3 {
+  text-align: center;
+}
+
+p {
+  margin: 20px auto;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 10px;
+  line-height: 1.3em;
+}
+
+h2 {
+  border-top: 2px solid #e7e7e7;
+  padding-top: 20px;
+}
+
+th {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  text-align: center;
+}
+
+td {
+  color: #0e1329;
+}
+
+thead th {
+    background-color: #55608f;
+  }
+
+  tbody tr:hover {
+    background-color: rgba(85, 7, 66, 0.2);
+  }
+
+td {
+  position: relative;
+} 
+
+td:hover, td:before {
+  z-index: -1;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+tr {
+  min-height: 50px;
+}
+
+tr:nth-child(2n) {
+  background: #E7E7E7;
+}
+
+
+label {
+  font-weight: bold;
+  min-width: 130px;
+  display: inline-block;
+  transition: 0.4s;
+}
+
+input {
+  padding: 10px;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  border-radius: 2px;
+  border-color: #E7E7E7;
+  transition: 0.4s;
+
+}
+
+input[type=text] {
+  width: 300px;
+}
+
+.error {
+  color: rgb(236, 15, 15);
+}
+
+.pagination {
+  text-align: center;
+}
+
+
