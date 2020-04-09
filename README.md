@@ -18,20 +18,5 @@
 <br />
 
 
-
-<br />
-<br />
-<h4><b>3. Add a .gitignore file to your app and make sure it includes the config.js file so that others cannot view your key details</h4></b>
-
-<p align="center"><a><img src="https://github.com/sargef/react-app-api-image-search/blob/master/src/images/config.png" width="220" height="115"></a></p>
-
-<h4><b>4. Run npm install in the root of the project.</h4></b>
-<h4><b>5. npm start.</h4></b>
-<h4><b>6. View on localhost port 3000 as suggested inside your terminal.</h4></b> :+1:
-<br />
-<br />
-<br />
-
-
 ----------------------------------------------------------------------------------------------------------------------------------------
 
