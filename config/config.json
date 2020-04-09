@@ -9,10 +9,10 @@
     "storage": "text.db"
   },
   "production": {
-    "username": "root",
-    "password": null,
+    "username": "b09ae979cb7273",
+    "password": "47a1728a",
     "database": "database_production",
-    "host": "127.0.0.1",
+    "host": "us-cdbr-iron-east-01.cleardb.net/heroku_8a4abeb702460aa",
     "dialect": "mysql",
     "operatorsAliases": false
   }
