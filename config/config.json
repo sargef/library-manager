@@ -8,13 +8,12 @@
     "dialect": "sqlite",
     "storage": "text.db"
   },
-    "production": {
-    "use_env_variable": "JAWSDB_URL",
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
     "dialect": "mysql",
-    "username": "trmmgr58o0079800",
-    "password": "owt0ky8lrupw1pwp",
-    "database": "grhmwb9ljl72pazv",
-    "host": "gtizpe105piw2gfq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    "port": "3306"
+    "operatorsAliases": false
   }
 }
