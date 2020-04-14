@@ -78,7 +78,7 @@ input[type=submit] {
     font-size: 17px;
   }
 
-h1, p, h3 {
+h1, p, h2, h3, ul {
   text-align: center;
 }
 
