@@ -17,6 +17,9 @@ module.exports = (sequelize) => {
                 notNull: {
                     msg: 'Please  provide a value for title',
                 },
+                 notEmpty: {
+                    msg: 'Please  provide a value for title',
+                },
             },
         },
         author: {
@@ -24,6 +27,9 @@ module.exports = (sequelize) => {
             allowNull: false,
             validate: { 
                 notNull: {
+                    msg: 'Please  provide a value for author',
+                },
+                notEmpty: {
                     msg: 'Please  provide a value for author',
                 },
             },
@@ -35,6 +41,9 @@ module.exports = (sequelize) => {
                 notNull: {
                     msg: 'Please  provide a value for genre',
                 },
+                notEmpty: {
+                    msg: 'Please  provide a value for genre',
+                },
             },
         },
         year: {
@@ -42,6 +51,9 @@ module.exports = (sequelize) => {
             allowNull: false,
             validate: { 
                 notNull: {
+                    msg: 'Please  provide a value for year',
+                },
+                notEmpty: {
                     msg: 'Please  provide a value for year',
                 },
             },
