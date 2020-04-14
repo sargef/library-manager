@@ -2,6 +2,9 @@ extends ../layout
 
 block content
     h1 Add New Book
+    
+    include empty-fields
+    
     form(action="/books/new", method="post")
     
       p
