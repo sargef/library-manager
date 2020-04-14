@@ -3,6 +3,9 @@ extends ../layout
 block content
 
     h1 Update Book
+    
+    include empty-fields
+    
     form(action=`/books/${book.id}` method="post")
         
         p
