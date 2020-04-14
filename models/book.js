@@ -14,11 +14,8 @@ module.exports = (sequelize) => {
             type: Sequelize.STRING,
             allowNull: false,
             validate: { 
-                notNull: {
-                    msg: 'Please  provide a value for title',
-                },
-                 notEmpty: {
-                    msg: 'Please  provide a value for title',
+                notEmpty: {
+                    msg: 'Please enter a value for a title',
                 },
             },
         },
@@ -26,11 +23,8 @@ module.exports = (sequelize) => {
             type: Sequelize.STRING,
             allowNull: false,
             validate: { 
-                notNull: {
-                    msg: 'Please  provide a value for author',
-                },
                 notEmpty: {
-                    msg: 'Please  provide a value for author',
+                    msg: 'Please enter a value for a author',
                 },
             },
         },
@@ -38,11 +32,8 @@ module.exports = (sequelize) => {
             type: Sequelize.STRING,
             allowNull: false,
             validate: { 
-                notNull: {
-                    msg: 'Please  provide a value for genre',
-                },
                 notEmpty: {
-                    msg: 'Please  provide a value for genre',
+                    msg: 'Please enter a value for a genre',
                 },
             },
         },
@@ -50,11 +41,8 @@ module.exports = (sequelize) => {
             type: Sequelize.INTEGER,
             allowNull: false,
             validate: { 
-                notNull: {
-                    msg: 'Please  provide a value for year',
-                },
                 notEmpty: {
-                    msg: 'Please  provide a value for year',
+                    msg: 'Please enter a value for a year',
                 },
             },
         },
